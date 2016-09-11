@@ -7,6 +7,7 @@
 //
 
 #import "ViewController.h"
+#import "ADVertiseViewController.h"
 
 @interface ViewController ()
 
@@ -16,12 +17,20 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view, typically from a nib.
+ 
+    self.title = @"首页";
+    self.view.backgroundColor = [UIColor orangeColor];
+    
+    [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(pushToAd) name:@"pushtoad" object:nil];
+    
 }
 
-- (void)didReceiveMemoryWarning {
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
+-(void)pushToAd {
+    
+    ADVertiseViewController *adVC = [[ADVertiseViewController alloc] init];
+    
+    [self.navigationController pushViewController:adVC animated:YES];
 }
+
 
 @end

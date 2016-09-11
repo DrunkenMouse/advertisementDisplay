@@ -15,6 +15,8 @@
 		16FC9C901D83E9B3002F318F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 16FC9C8E1D83E9B3002F318F /* LaunchScreen.storyboard */; };
 		16FC9C9B1D83E9B4002F318F /* ____Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 16FC9C9A1D83E9B4002F318F /* ____Tests.m */; };
 		16FC9CA61D83E9B4002F318F /* ____UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 16FC9CA51D83E9B4002F318F /* ____UITests.m */; };
+		16FC9CB51D83EB3E002F318F /* ADVertiseView.m in Sources */ = {isa = PBXBuildFile; fileRef = 16FC9CB41D83EB3E002F318F /* ADVertiseView.m */; };
+		16FC9CB81D83F57F002F318F /* ADVertiseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 16FC9CB71D83F57F002F318F /* ADVertiseViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +53,10 @@
 		16FC9CA11D83E9B4002F318F /* 广告加载UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "广告加载UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		16FC9CA51D83E9B4002F318F /* ____UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "____UITests.m"; sourceTree = "<group>"; };
 		16FC9CA71D83E9B4002F318F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		16FC9CB31D83EB3E002F318F /* ADVertiseView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ADVertiseView.h; sourceTree = "<group>"; };
+		16FC9CB41D83EB3E002F318F /* ADVertiseView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ADVertiseView.m; sourceTree = "<group>"; };
+		16FC9CB61D83F57F002F318F /* ADVertiseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ADVertiseViewController.h; sourceTree = "<group>"; };
+		16FC9CB71D83F57F002F318F /* ADVertiseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ADVertiseViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -110,6 +116,10 @@
 				16FC9C8E1D83E9B3002F318F /* LaunchScreen.storyboard */,
 				16FC9C911D83E9B3002F318F /* Info.plist */,
 				16FC9C801D83E9B3002F318F /* Supporting Files */,
+				16FC9CB31D83EB3E002F318F /* ADVertiseView.h */,
+				16FC9CB41D83EB3E002F318F /* ADVertiseView.m */,
+				16FC9CB61D83F57F002F318F /* ADVertiseViewController.h */,
+				16FC9CB71D83F57F002F318F /* ADVertiseViewController.m */,
 			);
 			path = "广告加载";
 			sourceTree = "<group>";
@@ -270,7 +280,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				16FC9CB51D83EB3E002F318F /* ADVertiseView.m in Sources */,
 				16FC9C881D83E9B3002F318F /* ViewController.m in Sources */,
+				16FC9CB81D83F57F002F318F /* ADVertiseViewController.m in Sources */,
 				16FC9C851D83E9B3002F318F /* AppDelegate.m in Sources */,
 				16FC9C821D83E9B3002F318F /* main.m in Sources */,
 			);
